@@ -22,6 +22,9 @@
 		A128983F193900E9005FB734 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A128981E193900E9005FB734 /* UIKit.framework */; };
 		A1289847193900E9005FB734 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A1289845193900E9005FB734 /* InfoPlist.strings */; };
 		A1289849193900E9005FB734 /* MatchedUpTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A1289848193900E9005FB734 /* MatchedUpTests.m */; };
+		A1289854193901A0005FB734 /* CCLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1289853193901A0005FB734 /* CCLoginViewController.m */; };
+		A128985C19391DF2005FB734 /* CCConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = A128985B19391DF2005FB734 /* CCConstants.m */; };
+		F4BAE585034941DCA8871091 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 139B89DB01344EABA1A66509 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		139B89DB01344EABA1A66509 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0157B767DBD477B9C508E2C /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		A1289817193900E8005FB734 /* MatchedUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MatchedUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A128981A193900E8005FB734 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A128981C193900E8005FB734 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -56,6 +61,10 @@
 		A1289844193900E9005FB734 /* MatchedUpTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MatchedUpTests-Info.plist"; sourceTree = "<group>"; };
 		A1289846193900E9005FB734 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A1289848193900E9005FB734 /* MatchedUpTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MatchedUpTests.m; sourceTree = "<group>"; };
+		A1289852193901A0005FB734 /* CCLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCLoginViewController.h; sourceTree = "<group>"; };
+		A1289853193901A0005FB734 /* CCLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCLoginViewController.m; sourceTree = "<group>"; };
+		A128985A19391DF2005FB734 /* CCConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCConstants.h; sourceTree = "<group>"; };
+		A128985B19391DF2005FB734 /* CCConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCConstants.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +75,7 @@
 				A128981D193900E8005FB734 /* CoreGraphics.framework in Frameworks */,
 				A128981F193900E9005FB734 /* UIKit.framework in Frameworks */,
 				A128981B193900E8005FB734 /* Foundation.framework in Frameworks */,
+				F4BAE585034941DCA8871091 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +99,7 @@
 				A1289842193900E9005FB734 /* MatchedUpTests */,
 				A1289819193900E8005FB734 /* Frameworks */,
 				A1289818193900E8005FB734 /* Products */,
+				A0157B767DBD477B9C508E2C /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -108,6 +119,7 @@
 				A128981C193900E8005FB734 /* CoreGraphics.framework */,
 				A128981E193900E9005FB734 /* UIKit.framework */,
 				A128983C193900E9005FB734 /* XCTest.framework */,
+				139B89DB01344EABA1A66509 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -118,6 +130,7 @@
 				A1289829193900E9005FB734 /* CCAppDelegate.h */,
 				A128982A193900E9005FB734 /* CCAppDelegate.m */,
 				A128982C193900E9005FB734 /* Main.storyboard */,
+				A1289855193901B6005FB734 /* Login */,
 				A128982F193900E9005FB734 /* CCFirstViewController.h */,
 				A1289830193900E9005FB734 /* CCFirstViewController.m */,
 				A1289832193900E9005FB734 /* CCSecondViewController.h */,
@@ -131,6 +144,8 @@
 		A1289821193900E9005FB734 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A128985A19391DF2005FB734 /* CCConstants.h */,
+				A128985B19391DF2005FB734 /* CCConstants.m */,
 				A1289822193900E9005FB734 /* MatchedUp-Info.plist */,
 				A1289823193900E9005FB734 /* InfoPlist.strings */,
 				A1289826193900E9005FB734 /* main.m */,
@@ -157,6 +172,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		A1289855193901B6005FB734 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				A1289852193901A0005FB734 /* CCLoginViewController.h */,
+				A1289853193901A0005FB734 /* CCLoginViewController.m */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -164,9 +188,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A128984C193900E9005FB734 /* Build configuration list for PBXNativeTarget "MatchedUp" */;
 			buildPhases = (
+				4A2BAE3CA24D47F2B751566C /* Check Pods Manifest.lock */,
 				A1289813193900E8005FB734 /* Sources */,
 				A1289814193900E8005FB734 /* Frameworks */,
 				A1289815193900E8005FB734 /* Resources */,
+				1C35DA2B2F514DBAB59F0BD2 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -250,12 +276,47 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1C35DA2B2F514DBAB59F0BD2 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4A2BAE3CA24D47F2B751566C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A1289813193900E8005FB734 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				A1289834193900E9005FB734 /* CCSecondViewController.m in Sources */,
+				A128985C19391DF2005FB734 /* CCConstants.m in Sources */,
+				A1289854193901A0005FB734 /* CCLoginViewController.m in Sources */,
 				A128982B193900E9005FB734 /* CCAppDelegate.m in Sources */,
 				A1289831193900E9005FB734 /* CCFirstViewController.m in Sources */,
 				A1289827193900E9005FB734 /* main.m in Sources */,
@@ -380,9 +441,14 @@
 		};
 		A128984D193900E9005FB734 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0157B767DBD477B9C508E2C /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MatchedUp/MatchedUp-Prefix.pch";
 				INFOPLIST_FILE = "MatchedUp/MatchedUp-Info.plist";
@@ -393,9 +459,14 @@
 		};
 		A128984E193900E9005FB734 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0157B767DBD477B9C508E2C /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MatchedUp/MatchedUp-Prefix.pch";
 				INFOPLIST_FILE = "MatchedUp/MatchedUp-Info.plist";
@@ -463,6 +534,7 @@
 				A128984E193900E9005FB734 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A128984F193900E9005FB734 /* Build configuration list for PBXNativeTarget "MatchedUpTests" */ = {
 			isa = XCConfigurationList;
@@ -471,6 +543,7 @@
 				A1289851193900E9005FB734 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
