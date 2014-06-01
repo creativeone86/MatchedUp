@@ -8,6 +8,7 @@
 
 #import "CCLoginViewController.h"
 
+
 @interface CCLoginViewController ()
 @property (strong, nonatomic) IBOutlet UIActivityIndicatorView *activityIndicator;
 @property (strong, nonatomic) NSMutableData *imageData;
@@ -29,6 +30,8 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    
     self.activityIndicator.hidden = YES;
 }
 
@@ -37,7 +40,7 @@
     if ([PFUser currentUser] && [PFFacebookUtils isLinkedWithUser:[PFUser currentUser]]) {
         
         [self updateUserInformation];
-        [self performSegueWithIdentifier:@"loginToTabBarSegue" sender:self];
+        [self performSegueWithIdentifier:@"loginToHomeSegue" sender:self];
         
     }
 }
@@ -71,7 +74,7 @@
         }
         else{
             [self updateUserInformation];
-            [self performSegueWithIdentifier:@"loginToTabBarSegue" sender:self];
+            [self performSegueWithIdentifier:@"loginToHomeSegue" sender:self];
         }
         
     }];
@@ -113,6 +116,19 @@
             }
             if (userDictionary[@"birthday"]) {
                 userProfile[kCCuserProfileBirthDayKey] = userDictionary[@"birthday"];
+                //format to age
+                
+                NSDateFormatter *formatted = [[NSDateFormatter alloc] init];
+                [formatted setDateStyle:NSDateFormatterShortStyle];
+                NSDate *date = [formatted dateFromString:userDictionary[@"birthday"]];
+                NSDate *now = [NSDate date];
+                NSTimeInterval seconds = [now timeIntervalSinceDate:date];
+                int age = seconds / 31536000;
+                
+                //convert int to NSNumber
+                userProfile[kCCuserProfileAgeKey] = @(age);
+                
+                
             }
             if (userDictionary[@"bio"]) {
                 userProfile[kCCuserProfileBioKey] = userDictionary[@"bio"];

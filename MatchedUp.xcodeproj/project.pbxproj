@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A10C3D54193A0F2700AC5040 /* CCHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A10C3D53193A0F2700AC5040 /* CCHomeViewController.m */; };
+		A10C3D58193A132B00AC5040 /* CCSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A10C3D57193A132B00AC5040 /* CCSettingsViewController.m */; };
+		A10C3D5C193A156200AC5040 /* CCEditProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A10C3D5B193A156200AC5040 /* CCEditProfileViewController.m */; };
+		A10C3D60193A17D000AC5040 /* CCProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A10C3D5F193A17D000AC5040 /* CCProfileViewController.m */; };
 		A128981B193900E8005FB734 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A128981A193900E8005FB734 /* Foundation.framework */; };
 		A128981D193900E8005FB734 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A128981C193900E8005FB734 /* CoreGraphics.framework */; };
 		A128981F193900E9005FB734 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A128981E193900E9005FB734 /* UIKit.framework */; };
@@ -14,8 +18,6 @@
 		A1289827193900E9005FB734 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A1289826193900E9005FB734 /* main.m */; };
 		A128982B193900E9005FB734 /* CCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A128982A193900E9005FB734 /* CCAppDelegate.m */; };
 		A128982E193900E9005FB734 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A128982C193900E9005FB734 /* Main.storyboard */; };
-		A1289831193900E9005FB734 /* CCFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1289830193900E9005FB734 /* CCFirstViewController.m */; };
-		A1289834193900E9005FB734 /* CCSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1289833193900E9005FB734 /* CCSecondViewController.m */; };
 		A1289836193900E9005FB734 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1289835193900E9005FB734 /* Images.xcassets */; };
 		A128983D193900E9005FB734 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A128983C193900E9005FB734 /* XCTest.framework */; };
 		A128983E193900E9005FB734 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A128981A193900E8005FB734 /* Foundation.framework */; };
@@ -24,6 +26,11 @@
 		A1289849193900E9005FB734 /* MatchedUpTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A1289848193900E9005FB734 /* MatchedUpTests.m */; };
 		A1289854193901A0005FB734 /* CCLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1289853193901A0005FB734 /* CCLoginViewController.m */; };
 		A128985C19391DF2005FB734 /* CCConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = A128985B19391DF2005FB734 /* CCConstants.m */; };
+		A17BEBF2193B1B4200A41DCE /* CCTestUser.m in Sources */ = {isa = PBXBuildFile; fileRef = A17BEBF1193B1B4200A41DCE /* CCTestUser.m */; };
+		A17BEBF5193B1BB600A41DCE /* 1459326_549190171836357_1050945138_n.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A17BEBF4193B1BB600A41DCE /* 1459326_549190171836357_1050945138_n.jpg */; };
+		A17BEBF9193B2F7E00A41DCE /* CCMatchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A17BEBF8193B2F7E00A41DCE /* CCMatchViewController.m */; };
+		A17BEBFD193B312600A41DCE /* CCMatchesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A17BEBFC193B312600A41DCE /* CCMatchesViewController.m */; };
+		A17BEC01193B347C00A41DCE /* CCChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A17BEC00193B347C00A41DCE /* CCChatViewController.m */; };
 		F4BAE585034941DCA8871091 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 139B89DB01344EABA1A66509 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -40,6 +47,14 @@
 /* Begin PBXFileReference section */
 		139B89DB01344EABA1A66509 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0157B767DBD477B9C508E2C /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		A10C3D52193A0F2700AC5040 /* CCHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCHomeViewController.h; sourceTree = "<group>"; };
+		A10C3D53193A0F2700AC5040 /* CCHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCHomeViewController.m; sourceTree = "<group>"; };
+		A10C3D56193A132B00AC5040 /* CCSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCSettingsViewController.h; sourceTree = "<group>"; };
+		A10C3D57193A132B00AC5040 /* CCSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCSettingsViewController.m; sourceTree = "<group>"; };
+		A10C3D5A193A156200AC5040 /* CCEditProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCEditProfileViewController.h; sourceTree = "<group>"; };
+		A10C3D5B193A156200AC5040 /* CCEditProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCEditProfileViewController.m; sourceTree = "<group>"; };
+		A10C3D5E193A17D000AC5040 /* CCProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCProfileViewController.h; sourceTree = "<group>"; };
+		A10C3D5F193A17D000AC5040 /* CCProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCProfileViewController.m; sourceTree = "<group>"; };
 		A1289817193900E8005FB734 /* MatchedUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MatchedUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A128981A193900E8005FB734 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A128981C193900E8005FB734 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -51,10 +66,6 @@
 		A1289829193900E9005FB734 /* CCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCAppDelegate.h; sourceTree = "<group>"; };
 		A128982A193900E9005FB734 /* CCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCAppDelegate.m; sourceTree = "<group>"; };
 		A128982D193900E9005FB734 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A128982F193900E9005FB734 /* CCFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCFirstViewController.h; sourceTree = "<group>"; };
-		A1289830193900E9005FB734 /* CCFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCFirstViewController.m; sourceTree = "<group>"; };
-		A1289832193900E9005FB734 /* CCSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCSecondViewController.h; sourceTree = "<group>"; };
-		A1289833193900E9005FB734 /* CCSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCSecondViewController.m; sourceTree = "<group>"; };
 		A1289835193900E9005FB734 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A128983B193900E9005FB734 /* MatchedUpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MatchedUpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A128983C193900E9005FB734 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -65,6 +76,15 @@
 		A1289853193901A0005FB734 /* CCLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCLoginViewController.m; sourceTree = "<group>"; };
 		A128985A19391DF2005FB734 /* CCConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCConstants.h; sourceTree = "<group>"; };
 		A128985B19391DF2005FB734 /* CCConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCConstants.m; sourceTree = "<group>"; };
+		A17BEBF0193B1B4200A41DCE /* CCTestUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCTestUser.h; sourceTree = "<group>"; };
+		A17BEBF1193B1B4200A41DCE /* CCTestUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCTestUser.m; sourceTree = "<group>"; };
+		A17BEBF4193B1BB600A41DCE /* 1459326_549190171836357_1050945138_n.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1459326_549190171836357_1050945138_n.jpg; sourceTree = "<group>"; };
+		A17BEBF7193B2F7E00A41DCE /* CCMatchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCMatchViewController.h; sourceTree = "<group>"; };
+		A17BEBF8193B2F7E00A41DCE /* CCMatchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCMatchViewController.m; sourceTree = "<group>"; };
+		A17BEBFB193B312600A41DCE /* CCMatchesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCMatchesViewController.h; sourceTree = "<group>"; };
+		A17BEBFC193B312600A41DCE /* CCMatchesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCMatchesViewController.m; sourceTree = "<group>"; };
+		A17BEBFF193B347C00A41DCE /* CCChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCChatViewController.h; sourceTree = "<group>"; };
+		A17BEC00193B347C00A41DCE /* CCChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCChatViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +112,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A10C3D51193A0EFE00AC5040 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				A10C3D52193A0F2700AC5040 /* CCHomeViewController.h */,
+				A10C3D53193A0F2700AC5040 /* CCHomeViewController.m */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		A10C3D55193A130D00AC5040 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				A10C3D56193A132B00AC5040 /* CCSettingsViewController.h */,
+				A10C3D57193A132B00AC5040 /* CCSettingsViewController.m */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		A10C3D59193A152A00AC5040 /* EditProfile */ = {
+			isa = PBXGroup;
+			children = (
+				A10C3D5A193A156200AC5040 /* CCEditProfileViewController.h */,
+				A10C3D5B193A156200AC5040 /* CCEditProfileViewController.m */,
+			);
+			name = EditProfile;
+			sourceTree = "<group>";
+		};
+		A10C3D5D193A17AD00AC5040 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				A10C3D5E193A17D000AC5040 /* CCProfileViewController.h */,
+				A10C3D5F193A17D000AC5040 /* CCProfileViewController.m */,
+			);
+			name = Profile;
+			sourceTree = "<group>";
+		};
 		A128980E193900E8005FB734 = {
 			isa = PBXGroup;
 			children = (
@@ -131,10 +187,14 @@
 				A128982A193900E9005FB734 /* CCAppDelegate.m */,
 				A128982C193900E9005FB734 /* Main.storyboard */,
 				A1289855193901B6005FB734 /* Login */,
-				A128982F193900E9005FB734 /* CCFirstViewController.h */,
-				A1289830193900E9005FB734 /* CCFirstViewController.m */,
-				A1289832193900E9005FB734 /* CCSecondViewController.h */,
-				A1289833193900E9005FB734 /* CCSecondViewController.m */,
+				A10C3D51193A0EFE00AC5040 /* Home */,
+				A10C3D55193A130D00AC5040 /* Settings */,
+				A10C3D59193A152A00AC5040 /* EditProfile */,
+				A10C3D5D193A17AD00AC5040 /* Profile */,
+				A17BEBEF193B1B2000A41DCE /* CreateParseUser */,
+				A17BEBF6193B2F6500A41DCE /* Match */,
+				A17BEBFA193B310600A41DCE /* Matches */,
+				A17BEBFE193B318700A41DCE /* Chat */,
 				A1289835193900E9005FB734 /* Images.xcassets */,
 				A1289821193900E9005FB734 /* Supporting Files */,
 			);
@@ -146,6 +206,7 @@
 			children = (
 				A128985A19391DF2005FB734 /* CCConstants.h */,
 				A128985B19391DF2005FB734 /* CCConstants.m */,
+				A17BEBF3193B1B9B00A41DCE /* ProfileImg */,
 				A1289822193900E9005FB734 /* MatchedUp-Info.plist */,
 				A1289823193900E9005FB734 /* InfoPlist.strings */,
 				A1289826193900E9005FB734 /* main.m */,
@@ -179,6 +240,50 @@
 				A1289853193901A0005FB734 /* CCLoginViewController.m */,
 			);
 			name = Login;
+			sourceTree = "<group>";
+		};
+		A17BEBEF193B1B2000A41DCE /* CreateParseUser */ = {
+			isa = PBXGroup;
+			children = (
+				A17BEBF0193B1B4200A41DCE /* CCTestUser.h */,
+				A17BEBF1193B1B4200A41DCE /* CCTestUser.m */,
+			);
+			name = CreateParseUser;
+			sourceTree = "<group>";
+		};
+		A17BEBF3193B1B9B00A41DCE /* ProfileImg */ = {
+			isa = PBXGroup;
+			children = (
+				A17BEBF4193B1BB600A41DCE /* 1459326_549190171836357_1050945138_n.jpg */,
+			);
+			name = ProfileImg;
+			sourceTree = "<group>";
+		};
+		A17BEBF6193B2F6500A41DCE /* Match */ = {
+			isa = PBXGroup;
+			children = (
+				A17BEBF7193B2F7E00A41DCE /* CCMatchViewController.h */,
+				A17BEBF8193B2F7E00A41DCE /* CCMatchViewController.m */,
+			);
+			name = Match;
+			sourceTree = "<group>";
+		};
+		A17BEBFA193B310600A41DCE /* Matches */ = {
+			isa = PBXGroup;
+			children = (
+				A17BEBFB193B312600A41DCE /* CCMatchesViewController.h */,
+				A17BEBFC193B312600A41DCE /* CCMatchesViewController.m */,
+			);
+			name = Matches;
+			sourceTree = "<group>";
+		};
+		A17BEBFE193B318700A41DCE /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				A17BEBFF193B347C00A41DCE /* CCChatViewController.h */,
+				A17BEC00193B347C00A41DCE /* CCChatViewController.m */,
+			);
+			name = Chat;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +366,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1289836193900E9005FB734 /* Images.xcassets in Resources */,
+				A17BEBF5193B1BB600A41DCE /* 1459326_549190171836357_1050945138_n.jpg in Resources */,
 				A1289825193900E9005FB734 /* InfoPlist.strings in Resources */,
 				A128982E193900E9005FB734 /* Main.storyboard in Resources */,
 			);
@@ -314,12 +420,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1289834193900E9005FB734 /* CCSecondViewController.m in Sources */,
+				A17BEBF9193B2F7E00A41DCE /* CCMatchViewController.m in Sources */,
+				A17BEBF2193B1B4200A41DCE /* CCTestUser.m in Sources */,
+				A10C3D54193A0F2700AC5040 /* CCHomeViewController.m in Sources */,
 				A128985C19391DF2005FB734 /* CCConstants.m in Sources */,
+				A10C3D60193A17D000AC5040 /* CCProfileViewController.m in Sources */,
+				A17BEBFD193B312600A41DCE /* CCMatchesViewController.m in Sources */,
 				A1289854193901A0005FB734 /* CCLoginViewController.m in Sources */,
+				A10C3D58193A132B00AC5040 /* CCSettingsViewController.m in Sources */,
 				A128982B193900E9005FB734 /* CCAppDelegate.m in Sources */,
-				A1289831193900E9005FB734 /* CCFirstViewController.m in Sources */,
 				A1289827193900E9005FB734 /* main.m in Sources */,
+				A17BEC01193B347C00A41DCE /* CCChatViewController.m in Sources */,
+				A10C3D5C193A156200AC5040 /* CCEditProfileViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
